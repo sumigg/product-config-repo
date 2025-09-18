@@ -1,0 +1,10 @@
+spring.config.activate.on-profile: docker
+server.port: 8080
+
+spring.cloud.stream.kafka.binder.brokers: broker
+
+spring:
+  r2dbc:
+    url: r2dbc:mysql://mysql:3306/review-db?zeroDateTimeBehavior=convertToNull&useSSL=false&useServerPrepareStatement=true
+
+app.eureka-server: eureka
