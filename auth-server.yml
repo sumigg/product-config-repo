@@ -3,10 +3,16 @@ spring:
     name: auth-server
 
  
+
+
 server:
   port: 9999
 server.forward-headers-strategy: framework
 
+app.eureka-server: localhost
+
+app.eureka-username: u
+app.eureka-password: p
 
 eureka:
   client:
@@ -18,16 +24,10 @@ eureka:
     leaseRenewalIntervalInSeconds: 5
     leaseExpirationDurationInSeconds: 5
 
+management.endpoint.health.show-details: "ALWAYS"
+management.endpoints.web.exposure.include: "*"
 
 logging:
   level:
     root: INFO
    
-
-
-
-
-
-
----
-spring.config.activate.on-profile: docker
