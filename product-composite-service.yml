@@ -121,10 +121,6 @@ spring.rabbitmq:
   password: guest
 
 
-spring:
-  application:
-    name: product-composite-service
-
 
 
 
@@ -153,3 +149,14 @@ logging:
     se.example: DEBUG
 management.endpoint.health.show-details: "ALWAYS"
 management.endpoints.web.exposure.include: "*"
+
+
+---
+spring.config.activate.on-profile: docker
+server.port: 8080
+spring.cloud.stream.kafka.binder.brokers: broker
+
+
+
+app.eureka-server: eureka
+app.auth-server: auth-server
