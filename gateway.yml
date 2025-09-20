@@ -73,6 +73,14 @@ spring:
             predicates:
             - Path=/error/**          
 
+          - id: config-server
+            uri: ${app.config-server}
+            predicates:
+            - Path=/config/**
+            filters:
+            - RewritePath=/config/(?<segment>.*), /$\{segment}
+
+
           - id: eureka-web-other
 
             uri: http://${app.eureka-server}:8761
