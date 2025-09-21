@@ -127,6 +127,10 @@ spring.rabbitmq:
 app.eureka-server: localhost
 app.auth-server: localhost
 
+app.eureka-username: u
+app.eureka-password: 08ba274bd202852fd9f45c2855c604578013ce44197bd0a6ac2acfbb2ccf7415
+
+
 spring.security.oauth2.resourceserver.jwt.issuer-uri: http://${app.auth-server}:9999
 
 eureka:
