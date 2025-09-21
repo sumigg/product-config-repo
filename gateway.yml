@@ -101,8 +101,7 @@ server.ssl:
 
 
 management.endpoint.gateway.enabled: true
-management.endpoint.health.show-details: "ALWAYS"
-management.endpoints.web.exposure.include: "*"
+
 
 app.eureka-server: localhost
 app.auth-server: localhost
@@ -117,8 +116,6 @@ logging:
     org.springframework.cloud.gateway: TRACE
 
 
-app.eureka-username: u
-app.eureka-password: p
 
 
 eureka:

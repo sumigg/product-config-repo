@@ -1,0 +1,5 @@
+app.eureka-username: u
+app.eureka-password: "{noop}p"
+
+management.endpoint.health.show-details: "ALWAYS"
+management.endpoints.web.exposure.include: "*"

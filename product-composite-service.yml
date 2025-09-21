@@ -125,8 +125,6 @@ spring.rabbitmq:
 
 
 app.eureka-server: localhost
-app.eureka-username: u
-app.eureka-password: p
 app.auth-server: localhost
 
 spring.security.oauth2.resourceserver.jwt.issuer-uri: http://${app.auth-server}:9999
@@ -147,8 +145,7 @@ logging:
   level:
     root: INFO
     se.example: DEBUG
-management.endpoint.health.show-details: "ALWAYS"
-management.endpoints.web.exposure.include: "*"
+
 
 
 ---

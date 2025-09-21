@@ -60,8 +60,7 @@ logging:
 
 
 app.eureka-server: localhost
-app.eureka-username: u
-app.eureka-password: p
+
 
 eureka:
   client:
@@ -73,8 +72,6 @@ eureka:
     leaseRenewalIntervalInSeconds: 5
     leaseExpirationDurationInSeconds: 5
 
-management.endpoint.health.show-details: "ALWAYS"
-management.endpoints.web.exposure.include: "*"
 
 ---
 spring.config.activate.on-profile: docker
