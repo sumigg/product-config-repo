@@ -4,7 +4,7 @@ server:
 
 
 app.eureka-username: u
-app.eureka-password: '{cipher}08ba274bd202852fd9f45c2855c604578013ce44197bd0a6ac2acfbb2ccf7415'
+app.eureka-password: "{cipher}08ba274bd202852fd9f45c2855c604578013ce44197bd0a6ac2acfbb2ccf7415"
 
 
 eureka:
