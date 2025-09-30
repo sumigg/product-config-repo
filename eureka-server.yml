@@ -2,8 +2,9 @@
 server:
   port: 8761
 
-
-
+logging:
+  level:
+    root: INFO
 
 eureka:
   instance:
