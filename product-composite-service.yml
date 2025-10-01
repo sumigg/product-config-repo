@@ -120,7 +120,7 @@ spring.cloud.stream.kafka.binder:
 #   username: guest
 #   password: guest
 
-
+management.health.rabbit.enabled: false
 
 
 
