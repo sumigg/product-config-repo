@@ -4,4 +4,5 @@ app.eureka-password: '{cipher}08ba274bd202852fd9f45c2855c604578013ce44197bd0a6ac
 
 management.endpoint.health.show-details: "always"
 management.endpoint.health.show-components: "always"
+management.endpoint.health.probes.enabled: true
 management.endpoints.web.exposure.include: "*"
