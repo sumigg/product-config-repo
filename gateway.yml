@@ -115,7 +115,8 @@ logging:
     root: INFO
     org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator: INFO
     org.springframework.cloud.gateway: TRACE
-
+  pattern:
+    level: "%5p [${spring.application.name},%X{trace_id},%X{span_id}]"   
 
 
 
